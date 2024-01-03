@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+ 
+    .logo{
+        font-size: 40px;
+        
+    }
+    .navs{
+        justify-content: flex-end;
+    }
+}
+#paternaPage{
+    width: 100%;
+    height: 700px;
+    background-color: #00798A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    .textDiv{
+    color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        h1{
+            font-size: 70px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        h4{
+            margin-bottom: 20px;
+        }
+        button{
+            color: white;
+            background-color: red;
+            padding: 6px 15px;
+            border: none;
+        }
+
+    }
+}
+#tam{
+    width: 100%;
+    height:auto;
+    
+    background-image: url("https://www.free-css.com/assets/files/free-css-templates/preview/page201/peterna/assets/img/sativa.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .headText{
+        margin: 28px;
+        
+    }
+    .item{
+        padding: 28px;
+        margin: 10px;
+        color: white;
+        background-color: #00798A;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;      
+          i{
+            font-size: 50px;
+            font-weight: bold;
+            margin: 25px;
+
+        }
+       
+    }
+    .sectext{
+        margin: 25px 0px;
+    }
+}
+
+
+#wallStreet{
+    width: 100%;
+    height: auto;
+    background-color: #00798A;
+    color: white;
+    .text{
+        text-align: center;
+        padding: 28px;
+
+    }
+  
+}
+#ourPlans{
+width: 100%;
+height: auto;
+background-image: url("https://www.free-css.com/assets/files/free-css-templates/preview/page201/peterna/assets/img/sativa.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+.headText{
+    margin: 28px;
+    padding: 10px;
+    color: #00798A;
+}
+.planText{
+    margin: 28px;
+    padding: 10px;   
+}
+
+.planCard{
+  
+    background-color: rgb(217, 215, 215);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+  .heads{
+width: 100%;
+margin-bottom: 15px;
+padding: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+
+   } 
+    p{
+    margin: 10px 0px;
+    margin: 20px;
+   
+    text-align: center;
+    color: rgb(94, 94, 94);
+   }
+   button{
+    width: 100%;
+    margin: 20px;
+padding: 10px;
+border: none;
+color: white;
+   }
+   
+  
+
+}
+}
+#number{
+    width: 100%;
+    height: auto;
+    background-color: #00798A;
+    color: white;
+    .text{
+        text-align: center;
+        padding: 28px;
+
+    }
+    .itemText{
+        margin: 25px 0px;
+    }
+  h1{
+    font-size: 60px;
+  }
+}
+#contact{
+    width: 100%;
+    height: auto;
+    h1{
+        color: #00798A;
+        margin: 20px 0px;
+    }
+    .itemContact{
+        margin: 20px 8px 28px 8px;
+    }
+
+}
+footer{
+
+}

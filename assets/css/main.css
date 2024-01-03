@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: black;
+}
+header .logo {
+  font-size: 40px;
+}
+header .navs {
+  justify-content: flex-end;
+}
+
+#paternaPage {
+  width: 100%;
+  height: 700px;
+  background-color: #00798A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+#paternaPage .textDiv {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+#paternaPage .textDiv h1 {
+  font-size: 70px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+#paternaPage .textDiv h4 {
+  margin-bottom: 20px;
+}
+#paternaPage .textDiv button {
+  color: white;
+  background-color: red;
+  padding: 6px 15px;
+  border: none;
+}
+
+#tam {
+  width: 100%;
+  height: auto;
+  background-image: url("https://www.free-css.com/assets/files/free-css-templates/preview/page201/peterna/assets/img/sativa.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#tam .headText {
+  margin: 28px;
+}
+#tam .item {
+  padding: 28px;
+  margin: 10px;
+  color: white;
+  background-color: #00798A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+#tam .item i {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 25px;
+}
+#tam .sectext {
+  margin: 25px 0px;
+}
+
+#wallStreet {
+  width: 100%;
+  height: auto;
+  background-color: #00798A;
+  color: white;
+}
+#wallStreet .text {
+  text-align: center;
+  padding: 28px;
+}
+
+#ourPlans {
+  width: 100%;
+  height: auto;
+  background-image: url("https://www.free-css.com/assets/files/free-css-templates/preview/page201/peterna/assets/img/sativa.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#ourPlans .headText {
+  margin: 28px;
+  padding: 10px;
+  color: #00798A;
+}
+#ourPlans .planText {
+  margin: 28px;
+  padding: 10px;
+}
+#ourPlans .planCard {
+  background-color: rgb(217, 215, 215);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+}
+#ourPlans .planCard .heads {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+#ourPlans .planCard p {
+  margin: 10px 0px;
+  margin: 20px;
+  text-align: center;
+  color: rgb(94, 94, 94);
+}
+#ourPlans .planCard button {
+  width: 100%;
+  margin: 20px;
+  padding: 10px;
+  border: none;
+  color: white;
+}
+
+#number {
+  width: 100%;
+  height: auto;
+  background-color: #00798A;
+  color: white;
+}
+#number .text {
+  text-align: center;
+  padding: 28px;
+}
+#number .itemText {
+  margin: 25px 0px;
+}
+#number h1 {
+  font-size: 60px;
+}
+
+#contact {
+  width: 100%;
+  height: auto;
+}
+#contact h1 {
+  color: #00798A;
+  margin: 20px 0px;
+}
+#contact .itemContact {
+  margin: 20px 8px 28px 8px;
+}
